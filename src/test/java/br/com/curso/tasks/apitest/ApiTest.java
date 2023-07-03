@@ -66,7 +66,7 @@ public class ApiTest {
 				.delete("todo/"+id)
 			.then()
 				.statusCode(204)
-				;
+			;
 	}
 	
 }
